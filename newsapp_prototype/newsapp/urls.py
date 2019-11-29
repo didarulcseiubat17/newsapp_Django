@@ -23,7 +23,7 @@ urlpatterns = [
 
 from django.contrib import admin 
 from django.urls import path 
-from newsapp1 import views 
+from newsappapi import views 
 
 urlpatterns = [ 
 path('', views.index, name ='index'), 
